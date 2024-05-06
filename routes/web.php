@@ -7,7 +7,7 @@ use App\Http\Controllers\DesignationsController;
 use App\Http\Controllers\Team_MembersController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ViewProjectController;
-use App\Http\Controllers\EventsController;
+use App\Http\Controllers\FullCalendarController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -49,9 +49,9 @@ Route::get('/team_members', function () {
     return view('team_members');
 })->middleware(['auth', 'verified'])->name('team_members');
 
-Route::get('/calendar', function () {
-    return view('calendar');
-})->middleware(['auth', 'verified'])->name('calendar');
+Route::get('/getevent', function () {
+    return view('fullcalendar');
+})->middleware(['auth', 'verified'])->name('getevent');
 
 Route::get('/kanban', function () {
     return view('kanban');
@@ -146,9 +146,8 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::middleware('auth')->group(function () {
-    Route::post('/calendar', [EventsController::class, 'create'])->name('calendar');
-    Route::get('/calendar', [EventsController::class, 'index'])->name('events');
-    Route::post('/remove-event', [EventsController::class, 'remove'])->name('remove_event');
-
+    Route::get('/getevent', [FullCalendarController::class, 'getEvent'])->name('getevent');
+    Route::post('/createevent',[FullCalendarController::class, 'createEvent'])->name('createevent');
+    Route::post('/deleteevent',[FullCalendarController::class, 'deleteEvent'])->name('deleteevent');
 });
 require __DIR__.'/auth.php';
