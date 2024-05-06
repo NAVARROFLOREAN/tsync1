@@ -2,6 +2,13 @@
 <html lang="en">
 <head>
 <title>T-Sync</title>
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+   <link href="assets/css/variables.css" rel="stylesheet">
+   <link href="assets/css/main.css" rel="stylesheet">
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css' rel='stylesheet'>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
@@ -39,7 +46,7 @@ text-align: center;">
     <div class="container">
 
     <div class="row justify-content-between">
-    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+    <div class="col-md-3 text-center text-md-start mb-3 mb-md-0">
     <footer class="container">
     <p style="color: #3e556f;">&copy; 2024 T-Sync. &middot; <a href="#" style="color: #3e556f;">Privacy</a> &middot; <a href="#" style="color: #3e556f;">Terms</a></p>
     </footer>
@@ -53,7 +60,7 @@ text-align: center;">
 
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-2">
     <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
     <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>

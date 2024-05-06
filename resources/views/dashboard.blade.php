@@ -13,6 +13,13 @@
         </h2>
     </x-slot>
 
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+   <link href="assets/css/variables.css" rel="stylesheet">
+   <link href="assets/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <!-- Google Fonts -->
@@ -278,34 +285,37 @@
   <!-- ======= Footer ======= -->
 <footer id="footer" class="footer" style="background:#9c9a9a;">
 
-    <div class="footer-legal">
-    <div class="container">
+<div class="footer-legal">
+<div class="container">
 
-    <div class="row justify-content-between">
-    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-    <footer class="container">
-    <p style="color: #3e556f;">&copy; 2024 T-Sync. &middot; <a href="#" style="color: #3e556f;">Privacy</a> &middot; <a href="#" style="color: #3e556f;">Terms</a></p>
-    </footer>
+<div class="row justify-content-between">
+<div class="col-md-3 text-center text-md-start mb-3 mb-md-0">
+<footer class="container">
+<p style="color: #3e556f;">&copy; 2024 T-Sync. &middot; <a href="#" style="color: #3e556f;">Privacy</a> &middot; <a href="#" style="color: #3e556f;">Terms</a></p>
+</footer>
 
-    <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-    </div>
+<div class="credits">
+<!-- All the links in the footer should remain intact. -->
+<!-- You can delete the links only if you purchased the pro version. -->
+<!-- Licensing information: https://bootstrapmade.com/license/ -->
+<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+</div>
 
-    </div>
+</div>
 
-    <div class="col-md-6">
-    <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
-    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-    <a href="#" class="github"><i class="bi bi-github"></i></a>
-    </div>
+<div class="col-md-3">
+<div class="social-links mb-3 mb-lg-0 text-center text-md-end">
+<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+<a href="#" class="github"><i class="bi bi-github"></i></a>
+</div>
 
-    </div>
+</div>
 
-    </div>
+</div>
+
+</div>
+</div>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
