@@ -45,7 +45,7 @@
                             </x-slot>
                         </x-dropdown>
             </div>
-                    <x-nav-link :href="route('calendar')" :active="request()->routeIs('calendar')">
+                    <x-nav-link :href="route('getevent')" :active="request()->routeIs('getevent')">
                         {{ __('Calendar') }}
                     </x-nav-link>
                     <x-nav-link :href="route('kanban')" :active="request()->routeIs('kanban')">
@@ -176,7 +176,7 @@
             <x-responsive-nav-link :href="route('position')" :active="request()->routeIs(['dashboard.*', 'team_members.index.*'])">
                 {{ __('Position') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('calendar')" :active="request()->routeIs(['calendar'])">
+            <x-responsive-nav-link :href="route('getevent')" :active="request()->routeIs(['getevent'])">
                 {{ __('Calendar') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('kanban')" :active="request()->routeIs(['kanban'])">
